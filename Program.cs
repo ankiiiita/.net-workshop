@@ -156,6 +156,82 @@
 //    }
 //}
 
+//Task 5
+//using System;
+
+//class Program
+//{
+//    static void Main()
+//    {
+//        // Create a DateTime variable for birthdate
+//        DateTime birthDate = new DateTime(2002, 3, 3);  // Example: 3rd March 2002
+
+//        // Create a DateTime variable for the current date and time
+//        DateTime currentDate = DateTime.Now;
+
+//        // Calculate age using TimeSpan
+//        TimeSpan ageSpan = currentDate - birthDate;
+//        int ageInYears = (int)(ageSpan.TotalDays / 365.25); // Approximate age in years
+
+//        // Print birthdate, current date, and age
+//        Console.WriteLine($"Birthdate: {birthDate.ToShortDateString()}");
+//        Console.WriteLine($"Current Date: {currentDate.ToShortDateString()}");
+//        Console.WriteLine($"Age: {ageInYears} years");
+
+//        // Add 10 days to birthdate
+//        DateTime birthDatePlus10 = birthDate.AddDays(10);
+//        Console.WriteLine($"Birthdate + 10 days: {birthDatePlus10.ToShortDateString()}");
+//    }
+//}
+
+
+//Task 6
+//using System;
+//using System.Collections.Generic;
+
+//class Program
+//{
+//    static void Main()
+//    {
+//        // Create a List<string> with 3 favorite fruits
+//        List<string> fruits = new List<string> { "Apple", "Mango", "Banana" };
+
+//        // Add a new fruit
+//        fruits.Add("Orange");
+
+//        // Remove one fruit
+//        fruits.Remove("Mango");
+
+//        // Print all fruits using foreach
+//        Console.WriteLine("Fruits in the list:");
+//        foreach (string fruit in fruits)
+//        {
+//            Console.WriteLine(fruit);
+//        }
+
+//        Console.WriteLine();
+
+//        // Create a Dictionary<int, string> with fruit IDs
+//        Dictionary<int, string> fruitDictionary = new Dictionary<int, string>
+//        {
+//            { 1, "Apple" },
+//            { 2, "Mango" },
+//            { 3, "Banana" }
+//        };
+
+//        // Add a new entry
+//        fruitDictionary.Add(4, "Orange");
+
+//        // Print all key-value pairs
+//        Console.WriteLine("Fruit Dictionary:");
+//        foreach (KeyValuePair<int, string> kvp in fruitDictionary)
+//        {
+//            Console.WriteLine($"ID: {kvp.Key}, Fruit: {kvp.Value}");
+//        }
+//    }
+//}
+
+
 
 
 
